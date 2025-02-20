@@ -12,7 +12,7 @@ A **personal portfolio website** built with **Next.js, Tailwind CSS, and Framer 
 
 ## 🔧 Setup & Installation
 
-```sh
+````sh
 git clone https://github.com/GhostTStark/Portfolio.git
 cd Portfolio
 npm install
@@ -42,9 +42,47 @@ npx vercel
 
 🚀 Happy Coding! 🎉
 
-markdown
-Copy
-Edit
 
-This **fits within one page**, keeps everything structured, and includes **installation,
+## API Reference
+
+#### Get all items
+
+```http
+  GET /api/items
+````
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
+#### Get item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
+
+#### add(num1, num2)
+
+Takes two numbers and returns the sum.
+
+## Authors
+
+- [@GhostTStark(Ayush Arya)](https://github.com/GhostTStark)
+
+## Tech Stack
+
+**Client:** ReactNative, typscript
+
+**Server:** Node, Express
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run dev
 ```
