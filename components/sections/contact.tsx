@@ -50,13 +50,13 @@ export function Contact() {
                   <span className="text-muted-foreground">New Delhi, India</span>
                 </div>
                 <div className="flex gap-4 mt-6">
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  <a href="https://github.com/GhostTStark" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                     <Github className="w-6 h-6" />
                   </a>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  <a href="https://www.linkedin.com/in/ayush-arya-36505a218/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                     <Linkedin className="w-6 h-6" />
                   </a>
-                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  <a href="https://x.com/Ayusharya280100" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                     <Twitter className="w-6 h-6" />
                   </a>
                 </div>
